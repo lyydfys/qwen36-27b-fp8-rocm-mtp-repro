@@ -7,6 +7,11 @@ and measuring Qwen MTP speculative decoding.
 This repository intentionally excludes model weights. It contains scripts,
 reports, prompts, result summaries, and publication drafts only.
 
+Public links:
+
+- GitHub: https://github.com/lyydfys/qwen36-27b-fp8-rocm-mtp-repro
+- Hugging Face Space: https://huggingface.co/spaces/lyydfys/qwen36-27b-fp8-rocm-mtp-report
+
 ## Key Result
 
 Under a forced 1024-token single-request decode workload, all configurations
