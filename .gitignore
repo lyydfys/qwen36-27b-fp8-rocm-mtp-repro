@@ -13,4 +13,4 @@ weights/
 checkpoints/
 .venv/
 venv/
-
+publish/gallery/gallery_outputs/

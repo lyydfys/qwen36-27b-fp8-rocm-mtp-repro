@@ -1,0 +1,4 @@
+# Lightweight dependencies for the default Gallery notebook cells.
+# The full vLLM/ROCm stack is provided by the ModelScope DSW AMD GPU image.
+requests>=2.31.0
+matplotlib>=3.7.0
