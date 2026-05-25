@@ -11,6 +11,9 @@ Public links:
 
 - GitHub: https://github.com/lyydfys/qwen36-27b-fp8-rocm-mtp-repro
 - Hugging Face Space: https://huggingface.co/spaces/lyydfys/qwen36-27b-fp8-rocm-mtp-report
+- ModelScope Yanxishe article: https://modelscope.cn/learn/434098
+- ModelScope Gallery notebook: https://modelscope.cn/gallery/lyydfys/142c3e0f-7543-4288-8e8d-cdf93bac89f5
+- Aliyun Developer Community article: https://developer.aliyun.com/article/1736725
 
 ## Key Result
 
