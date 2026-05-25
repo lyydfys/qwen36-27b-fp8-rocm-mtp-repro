@@ -1,0 +1,14 @@
+﻿SOURCE /mnt/workspace/qwen27b_rocm_mtp_repro_20260525/reports/round5_concurrency_serving_20260525_155522.jsonl
+label	concurrency	requests	success_rate	wall_time	aggregate_tok_s	p50_latency	p95_latency	p50_decode_tok_s	all_full
+baseline	1	2	1.0	95.230517	21.505711	47.614726	47.640604	21.505958	True
+baseline	2	2	1.0	55.005783	37.232449	55.004424	55.004868	18.616684	True
+baseline	4	4	1.0	55.789789	73.418453	55.785482	55.787349	18.356030	True
+mtp_t4	1	2	1.0	37.732551	54.276744	18.865812	18.970771	54.279758	True
+mtp_t4	2	2	1.0	19.743589	103.729872	19.742277	19.742702	51.868384	True
+mtp_t4	4	4	1.0	21.588095	189.734199	20.777241	21.583426	49.293278	True
+
+speedup_vs_baseline_by_aggregate_tok_s
+concurrency	baseline_tok_s	mtp_t4_tok_s	speedup
+1	21.505711	54.276744	2.524294
+2	37.232449	103.729872	2.785842
+4	73.418453	189.734199	2.584288
