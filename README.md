@@ -80,6 +80,12 @@ reports are small and should be persisted; model weights can be downloaded again
 - `scripts/run_round3_long_decode_and_kv.sh`
 - `scripts/run_round4_forced_1024_decode.sh`
 - `scripts/run_round5_concurrency_serving.sh`
+- `scripts/llamacpp_build_rocm.sh`
+- `scripts/llamacpp_prepare_runtime_tree.sh`
+- `scripts/llamacpp_convert_gguf_quant.sh`
+- `scripts/llamacpp_run_q4_rocm_cli.sh`
+- `scripts/llamacpp_start_q4_rocm_server.sh`
+- `scripts/llamacpp_check_q4_rocm_server.sh`
 
 ## Reports
 
@@ -87,6 +93,7 @@ reports are small and should be persisted; model weights can be downloaded again
 - `reports/round3_long_decode_and_kv_20260525.md`
 - `reports/round4_forced_1024_decode_20260525.md`
 - `reports/round5_concurrency_serving_20260525.md`
+- `reports/round6_llamacpp_gguf_quant_20260525.md`
 - `reports/qwen36_27b_rocm_mtp_research_report_20260525.md`
 
 ## Scope Boundary
