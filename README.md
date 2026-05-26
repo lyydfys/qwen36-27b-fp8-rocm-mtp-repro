@@ -37,6 +37,14 @@ Small-concurrency serving results using the same forced 1024-token prompt:
 | 2 | 37.23 | 103.73 | 2.79x |
 | 4 | 73.42 | 189.73 | 2.58x |
 
+llama.cpp ROCm deployment branch:
+
+| artifact | runtime | gate | result |
+|---|---|---|---|
+| Q4_K_M GGUF, about 16G | `llama-cli` ROCm | short generation | `RC:0`, about 33.4 gen tok/s |
+| Q4_K_M GGUF, about 16G | `llama-server` ROCm | `/health`, `/v1/models`, chat, native completion | `API_CASES_OK=5/5` |
+| Q4_K_M GGUF, about 16G | `llama-server` ROCm | clean server restart and API recheck | `RESTART_API_OK=2/2` |
+
 ## Environment Snapshot
 
 | item | value |
@@ -94,6 +102,7 @@ reports are small and should be persisted; model weights can be downloaded again
 - `reports/round4_forced_1024_decode_20260525.md`
 - `reports/round5_concurrency_serving_20260525.md`
 - `reports/round6_llamacpp_gguf_quant_20260525.md`
+- `reports/round7_llamacpp_rocm_direct_deploy_20260526.md`
 - `reports/qwen36_27b_rocm_mtp_research_report_20260525.md`
 
 ## Scope Boundary
